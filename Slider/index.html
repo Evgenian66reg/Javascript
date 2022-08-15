@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My slider</title>
+</head>
+<body>
+    <h1>My slider</h1>
+<div class="mainContainer">
+    <div class="sliderContainer">
+        <div class="slide active">
+            <img src="images/Beach.jpg" alt="photo">  
+        </div>
+
+        <div class="slide">
+            <img src="images/Forest.jpg" alt="photo">  
+        </div>
+
+        <div class="slide">
+            <img src="images/Lake.jpg" class="imgBlock" alt="photo">
+        </div>
+
+        <div class="slide">
+            <img src="images/Lighthouse.jpg" class="imgBlock" alt="photo"> 
+        </div>
+
+        <div class="slide">
+            <img src="images/Winter.jpg" class="imgBlock" alt="photo">
+        </div>
+        <div id="btnPrev"><img class="arrow" src="images/left_512.png" alt=""></div>    
+        <div id="btnNext"><img class="arrow" src="images/right_512.png" alt=""></div>
+   </div>
+</div>
+   <div class="dotsContainer">
+       <span class="dot active"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+       <span class="dot"></span>
+   </div>
+<script src="./script.js"></script>
+</body>
+</html>
